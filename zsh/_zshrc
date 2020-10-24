@@ -158,5 +158,5 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
+ 
 
