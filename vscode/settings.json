@@ -1,0 +1,60 @@
+{
+  "terminal.integrated.fontSize": 14,
+
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 23,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+
+
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  
+  "editor.rulers": [120],
+  
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json"
+  },
+  "terminal.integrated.rendererType": "dom",
+  "window.nativeTabs": true,
+  "window.titleBarStyle": "custom",
+
+  "telemetry.enableTelemetry": false,
+  "workbench.colorTheme": "Horizon",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.hg/store/**": true
+  },
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "switch:command"
+  ]
+
+  // Vim configs
+  // "editor.lineNumbers": "relative",
+  // "editor.renameOnType": true,
+  // "liveServer.settings.donotShowInfoMsg": true,
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // }
+}
