@@ -30,7 +30,7 @@
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
-    "**/.DS_Store": true
+    "**/.DS_Store": true,
     // "**/node_modules": true
   },
 
@@ -114,5 +114,7 @@
   },
   "[jsonc]": {
     "editor.defaultFormatter": "HookyQR.beautify"
-  }
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.fontFamily": "MesloLGS NF"
 }
