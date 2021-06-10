@@ -114,9 +114,10 @@ alias home='cd ~'
 
 # Substitute for ls
 alias ls='exa'
-
-# Substitute for cat
 alias cat='bat'
+
+# Clean docker
+alias clean-docker='docker system prune -a'
 
 # Spaceship configs
 
