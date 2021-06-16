@@ -4,7 +4,7 @@ set -e
 DISTRO_NAME=$(awk -F= '/^NAME/{print $2}' /etc/os-release | tr -d '"')
 HOME=$(realpath ~)
 
-DEB_PACKAGES='gnome-tweaks git curl alacritty synaptic network-manager-openvpn-gnome zsh neo-vim'
+DEB_PACKAGES='gnome-tweaks git curl alacritty synaptic network-manager-openvpn-gnome zsh neo-vim scrcpy'
 FLATK_APPS='com.google.AndroidStudio com.spotify.Client com.getpostman.Postman com.spotify.Client io.dbeaver.DBeaverCommunity'
 
 echo $DISTRO_NAME;
