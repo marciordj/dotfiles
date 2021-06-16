@@ -12,6 +12,9 @@ echo $DISTRO_NAME;
 if [ $DISTRO_NAME = "Pop!_OS" ]; then
   echo "Install debian packages"
   sudo apt install -y ${DEB_PACK}
+elif [ $DISTRO_NAME = "Ubuntu"]; then
+  echo "Install debian packages"
+  sudo apt install -y ${DEB_PACK}
 else 
   echo "Error"
 fi
